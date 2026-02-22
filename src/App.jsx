@@ -1,6 +1,8 @@
 import './App.css'
 import Counter from './counter';
 import Team from './Team';
+import Users from './Users';
+import Posts from './Posts';
 
 function App() {
   function handleClick(){
@@ -16,7 +18,8 @@ function App() {
   return (
     <>
       <h3>React core concept</h3>
-
+      <Posts></Posts>
+      <Users></Users>
       <Team></Team>
       <Counter></Counter>
 

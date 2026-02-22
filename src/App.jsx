@@ -5,6 +5,7 @@ import Users from './Users';
 import Posts from './Posts';
 import Friends from './Friends';
 import Comments from './Comments';
+import Albums from './Albums';
 
 function App() {
   function handleClick(){
@@ -20,6 +21,7 @@ function App() {
   return (
     <>
       <h3>React core concept</h3>
+      <Albums></Albums>
       <Comments></Comments>
       <Friends></Friends>
       <Posts></Posts>
